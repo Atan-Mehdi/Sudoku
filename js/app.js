@@ -395,7 +395,7 @@ const init = () => {
 
     const game = getGameInfo();
 
-    document.querySelector('#btn-play').style.display = game ? 'grid' : 'none';
+//     document.querySelector('#btn-play').style.display = game ? 'grid' : 'none';
 
     initGameGrid();
     initCellsEvent();
